@@ -1,0 +1,34 @@
+db.users.bulkWrite([{
+            insertOne: {
+                "document": {
+                    name: "Mike",
+                    age: 45,
+                    email: "mike@test.ru"
+                }
+            }
+        }, {
+            deleteOne: {
+                "filter": {
+                    age: 3
+                }
+            }
+        }, {
+            updateMany: {
+                "filter": {name: "Mike"},
+                update: {$set: {email: "New_email@.ru"}
+                }
+            }
+        }, {
+            replaceOne: {
+                "filter": {
+                    name: "James"
+                },
+                replacement: {
+
+                    name: "New_John",
+                    age: 44
+
+                }
+            }
+        }
+    ])
