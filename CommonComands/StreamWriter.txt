@@ -1,0 +1,14 @@
+ string writePath = @"C:\Users\dnknt\OneDrive\Рабочий стол\Output.txt";
+
+            try
+            {
+                using (StreamWriter sw = new StreamWriter(writePath, false, System.Text.Encoding.UTF8))
+                {
+                    sw.WriteLine(output + "\n");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            };
+            return;
