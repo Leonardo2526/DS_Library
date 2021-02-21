@@ -1,0 +1,8 @@
+public void ListOutput()
+        {
+           
+             string delimiter = "\n";
+             string StringOutput = Newlist.Aggregate((i, j) => i + delimiter + j);
+             MessageBox.Show(StringOutput);
+           
+        }
