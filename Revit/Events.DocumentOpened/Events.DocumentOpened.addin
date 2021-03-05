@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>  
+	<AddIn Type="Application">
+    <Name>OpDoc</Name>
+		<Assembly>"C:\Program Files\Autodesk\Revit 2020\AddIns\Events.DocumentOpened\Events.DocumentOpened.dll"</Assembly>
+		<AddInId>eb9fc3e9-544f-441e-9ca4-ee7ad758dee7</AddInId>
+		<FullClassName>DS_RevitApp.Application_DocumentOpened</FullClassName>
+		<VendorId>DS</VendorId> 
+	</AddIn>
+</RevitAddIns>
