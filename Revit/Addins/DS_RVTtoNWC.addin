@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>DS_RVTtoNWC</Name>
+    <FullClassName>DS_RVTtoNWC.DS_MainClass</FullClassName>
+    <Text>DS_RVTtoNWC</Text>
+    <Description>DS_RVTtoNWC text</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Assembly>"C:\Users\dnknt\AppData\Roaming\Autodesk\Revit\Addins\2020\DS_ClassLibrary_Revit_2020\DS_ClassLibrary_Revit_2020.dll"</Assembly>
+    <AddInId>fc3ce97b-492f-48bd-a870-d05d51f6c10f</AddInId>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>HelloWorld</Name>
+    <FullClassName>Turorial.HelloWorld</FullClassName>
+    <Text>HelloWorld</Text>
+    <Description>HelloWorld text</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Assembly>C:\Users\dnknt\AppData\Roaming\Autodesk\Revit\Addins\2020\ClassLibrary_Revit_NetFramework\ClassLibrary_Revit_NetFramework.dll</Assembly>
+    <AddInId>73c5d4dc-abb0-4c41-b9cf-92cea816409d</AddInId>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

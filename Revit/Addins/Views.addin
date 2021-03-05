@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>Views</Name>
+    <FullClassName>Turorial.Views</FullClassName>
+    <Text>Views</Text>
+    <Description>Views text</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Assembly>C:\Users\dnknt\AppData\Roaming\Autodesk\Revit\Addins\2020\ClassLibrary_Revit_NetFramework\ClassLibrary_Revit_NetFramework.dll</Assembly>
+    <AddInId>4d3ade96-1d40-41a9-aff4-d38b7ba8645b</AddInId>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
